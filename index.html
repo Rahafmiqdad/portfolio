@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link href="./style.css" rel="stylesheet">
+	<title>Home</title>
+</head>
+<body>
+<nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"></a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                	<li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Project</a></li>         
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br><br>
+    <br><br>
+   
+
+ <div class="home-content">
+				<p>Hello</p>
+				<p>I’m Rahaf </p>
+				<p>Fullstack <br class="text-decor"> <br class="text-decor"> Developer</p>
+
+ 
+                   
+    <div class="social-btn">
+					<a target="_blank" class="cv-btn"
+						href="https://drive.google.com/file/d/1YcLPsKwlkjEBYssuXvpXuzlHhAj81C59/view?usp=sharing">Open
+						CV</a>
+
+					<a target="_blank" class="git-btn" href="https://github.com/Rahafmiqdad"></a>
+					<a target="_blank" class="in-btn" href="https://www.linkedin.com/in/rahaf-miqdad-b29055204/"></a>
+				</div>
+
+				<br>
+				<br>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
